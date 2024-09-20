@@ -1,7 +1,8 @@
 ### Theoretical Background
 
-In image p![paritcles](https://github.com/user-attachments/assets/88eee482-fc66-4f16-9cfa-83a1058446ec)
-rocessing, <b>erosion</b> is a morphological operation used to remove small-scale noise and separate objects in an image. This technique works by <b>shrinking the boundaries</b> of the foreground object (typically white pixels) within a binary or grayscale image. The operation uses a <b>structuring element</b>, or <b>kernel</b>, which defines the shape and size of the area considered around each pixel. When applied, the kernel slides over the image, and if the kernel fits entirely within the foreground pixels, the center pixel is retained; otherwise, it is set to the background. Erosion is often used as a <b>preprocessing step</b> before further operations like segmentation or object detection.
+In image processing, <b>erosion</b> is a morphological operation used to remove small-scale noise and separate objects in an image. This technique works by <b>shrinking the boundaries</b> of the foreground object (typically white pixels) within a binary or grayscale image. The operation uses a <b>structuring element</b>, or <b>kernel</b>, which defines the shape and size of the area considered around each pixel. When applied, the kernel slides over the image, and if the kernel fits entirely within the foreground pixels, the center pixel is retained; otherwise, it is set to the background. Erosion is often used as a <b>preprocessing step</b> before further operations like segmentation or object detection.
+
+![paritcles](https://github.com/user-attachments/assets/88eee482-fc66-4f16-9cfa-83a1058446ec)
 
 ### Code Explanation
 
